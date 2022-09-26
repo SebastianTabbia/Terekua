@@ -1,3 +1,5 @@
+//NAVBAR//
+
 window.onscroll = function(){
 
     scroll = document.documentElement.scrollTop;
@@ -31,4 +33,14 @@ window.addEventListener("resize", function(){
     body.classList.remove('move_content');
     nav.classList.remove('move_nav');
     }
+})
+
+//FOOTER//
+
+const toggle = document.querySelector('.toggle')
+const links = document.querySelector('.nav-links')
+
+toggle.addEventListener('click', () => {
+    toggle.classList.toggle('rotate')
+    links.classList.toggle('active')
 })
