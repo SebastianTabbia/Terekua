@@ -75,7 +75,7 @@ nav ul li a {
 }
 
 .select {
-  background: #359ef9;
+  background: #C79C62;
   padding: 10px 30px;
   color: white;
   border-radius: 20px;
@@ -223,7 +223,7 @@ mask-size: cover; */
   display: flex;
   justify-content: space-between;
   position: relative;
-  background-image: url(../img/cancha\ hockey\ completa-01.png);
+  background-image: url();
   background-size: cover;
   background-position: bottom;
 }
@@ -244,7 +244,7 @@ mask-size: cover; */
 .cover h2 {
   font-size: 25px;
   font-weight: 900;
-  color: #feba0b;
+  color: #C79C62;
   margin-top: -20px;
 }
 
@@ -260,7 +260,7 @@ mask-size: cover; */
   font-weight: 600;
   border: none;
   color: white;
-  background: #feba0b;
+  background: #C79C62;
   border-radius: 20px;
   box-shadow: 1px 1px 30px -5px rgba(32, 32, 32, 0.2862745098);
   cursor: pointer;
