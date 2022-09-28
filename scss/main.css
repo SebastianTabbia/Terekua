@@ -30,6 +30,7 @@ header {
   right: 0;
   z-index: 100;
   transition: all 300ms;
+  background: #dce9ec;
 }
 
 .move_content {
@@ -83,7 +84,7 @@ nav ul li a {
 }
 
 .select {
-  background: #359EF9;
+  background: #7C89A1;
   padding: 10px 30px;
   color: white;
   border-radius: 20px;
@@ -120,13 +121,15 @@ nav ul li a {
   }
   .btn__menu {
     display: flex;
+    z-index: 100;
+    right: 10px;
   }
   nav {
     height: 100%;
     background: #F1FAFF;
     position: fixed;
     top: 0;
-    right: -180px;
+    right: -250px;
     padding: 0 40px;
     transition: all 300ms;
   }
@@ -160,7 +163,6 @@ mask-size: cover; */
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
-  margin-top: 100px;
 }
 
 .box__footer {
@@ -251,7 +253,12 @@ mask-size: cover; */
   width: 100%;
   padding-bottom: 60px;
   font-family: "Poppins", sans-serif;
-  margin-top: 100px;
+  margin-top: 97px;
+}
+
+.barra {
+  width: 100%;
+  height: 15px;
 }
 
 .container__cover {
@@ -261,9 +268,7 @@ mask-size: cover; */
   display: flex;
   justify-content: space-between;
   position: relative;
-  background-image: url(../images/background-cover.svg);
-  background-size: cover;
-  background-position: bottom;
+  margin-top: 80px;
 }
 
 .cover .container__info {
@@ -277,18 +282,21 @@ mask-size: cover; */
   font-size: 60px;
   font-weight: 900;
   color: #373737;
+  text-align: center;
 }
 
 .cover h2 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 900;
-  color: #FEBA0B;
-  margin-top: -30px;
+  color: #C79C62;
+  margin-top: -10px;
+  text-align: center;
 }
 
 .cover p {
   margin-top: 10px;
   color: #373737;
+  text-align: center;
 }
 
 .cover input[type=button] {
@@ -296,9 +304,10 @@ mask-size: cover; */
   margin-top: 40px;
   font-size: 18px;
   font-weight: 600;
+  margin-left: 100px;
   border: none;
   color: white;
-  background: #FEBA0B;
+  background: #9579B1;
   border-radius: 20px;
   box-shadow: 1px 1px 30px -5px rgba(32, 32, 32, 0.2862745098);
   cursor: pointer;
@@ -317,7 +326,7 @@ mask-size: cover; */
   position: absolute;
   bottom: 10px;
   right: 0px;
-  width: 600px;
+  width: 650px;
   -webkit-animation: move_vector 6s ease-in-out infinite;
           animation: move_vector 6s ease-in-out infinite;
   transition: all 300ms;
@@ -389,17 +398,18 @@ mask-size: cover; */
   font-family: "Lato", sans-serif;
 }
 
-body {
-  background: #F1FAFF;
-}
-
 .container__cards {
-  max-width: 1200px;
+  max-width: 100%;
   margin: auto;
   margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.barra {
+  width: 100%;
+  height: 15px;
 }
 
 .card {
