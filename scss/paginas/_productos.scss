@@ -1,0 +1,68 @@
+ /*Estilo C*/
+
+ .store{
+    margin-top: 100px;
+ }
+
+.ctn-estilo-c{
+    max-width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+  .estilo-c .img-container{
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    border-radius: 15px;
+  }
+  .estilo-c .img-container img{
+    width: 100%;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  .estilo-c:hover .img-container img{
+    transform: scale(1.2);
+  }
+  .estilo-c .img-container .promo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 20px;
+    background: yellow;
+    padding: 15px;
+    color: black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .estilo-c .info-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .estilo-c .info-container h3{
+    margin: 0;
+  }
+  .estilo-c .info-container h3,
+  .estilo-c .info-container strong,
+  .estilo-c .info-container span{
+    padding: 5px 15px;
+    width: 100%;
+  }
+  .estilo-c .add-cart{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #a095c0;
+    padding: 15px;
+    border: 1px solid #a095c0;
+    border-radius: 25px;
+  }
+  .estilo-c .add-cart:hover{
+    color: white;
+    background:#83277b;
+  }
