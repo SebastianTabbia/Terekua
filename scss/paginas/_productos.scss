@@ -11,13 +11,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
   .estilo-c .img-container{
     overflow: hidden;
     height: 250px;
     position: relative;
-    border-radius: 15px;
+    border-radius: 20px 20px 0px 0px;
   }
   .estilo-c .img-container img{
     width: 100%;
@@ -43,6 +44,11 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    height: 250px;
+    background: rgba(231, 227, 227, 0.26);
+    padding-bottom: 30px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 7px 15px 15px #592A08;  
   }
   .estilo-c .info-container h3{
     margin: 0;

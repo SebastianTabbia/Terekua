@@ -418,7 +418,7 @@ hr {
 
 .box:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.5);
+  box-shadow: 7px 15px 15px #592A08;
   background: #4A6C3C;
   z-index: 1;
 }
@@ -641,13 +641,14 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .estilo-c .img-container {
   overflow: hidden;
   height: 250px;
   position: relative;
-  border-radius: 15px;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .estilo-c .img-container img {
@@ -677,6 +678,11 @@ hr {
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  height: 250px;
+  background: rgba(231, 227, 227, 0.26);
+  padding-bottom: 30px;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 7px 15px 15px #592A08;
 }
 
 .estilo-c .info-container h3 {
