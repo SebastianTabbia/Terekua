@@ -64,11 +64,12 @@
     box-shadow: 1px 1px 30px -5px #20202049;
     cursor: pointer;
     transition: box-shadow 500ms;
+    
 }
 
 .cover input[type="button"]:hover{
     background: #83277b;
-    box-shadow: 1px 1px 30px -5px #20202085;
+    box-shadow: 7px 10px 15px #592a0893;
 }
 
 
@@ -155,7 +156,7 @@ hr{
 
 .box:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.5);
+    box-shadow: 7px 15px 15px #592A08;  
     background: #4A6C3C;
     z-index: 1;
 }
@@ -202,6 +203,38 @@ hr{
     color: #fff;
     transition: all 600ms ease;
 }
+
+/*Tercera seccion*/
+
+.botoneras{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.botoneras .add-cart{
+    display: flex;
+    margin:auto;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    color: white;
+    background: #7C89A1;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+  }
+  .botoneras .add-cart:hover{
+    background: #4A6C3C;
+    box-shadow: 7px 15px 15px #592a0893;
+  }
 
 /*Medias SCREEN*/
 

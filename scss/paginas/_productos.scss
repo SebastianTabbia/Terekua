@@ -4,6 +4,55 @@
     margin-top: 100px;
  }
 
+.txt-lineas {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin: auto;
+margin-top: 40px;
+}
+
+.txt-lineas h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #C79C62;
+    text-align: center;
+}
+
+.txt-lineas p{
+  margin-top: 30px;
+  color: #373737;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height:25px;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: 900;
+  color: #C79C62;
+  text-align: center;
+}
+
+.separador-txt{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  background: black;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 7px 15px 15px #592a0893;
+}
+
+.separador-txt h2{
+font-size: 25px;
+margin: auto;
+}
+
 .ctn-estilo-c{
     max-width: 100%;
     margin: auto;
@@ -11,13 +60,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
   .estilo-c .img-container{
     overflow: hidden;
     height: 250px;
     position: relative;
-    border-radius: 15px;
+    border-radius: 20px 20px 0px 0px;
   }
   .estilo-c .img-container img{
     width: 100%;
@@ -30,19 +80,45 @@
   .estilo-c .img-container .promo{
     position: absolute;
     top: 10px;
-    left: 0;
+    left: 10px;
     font-size: 20px;
     background: yellow;
     padding: 15px;
     color: black;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
+    border-radius: 20px;
+  }
+
+  .estilo-c .img-container .promo1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    background: rgb(243, 138, 19);
+    padding: 15px;
+    color: black;
+    border-radius: 20px;
+  }
+
+  .estilo-c .img-container .promo2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    background: rgb(241, 11, 11);
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
   }
   .estilo-c .info-container{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    height: 250px;
+    background: rgba(231, 227, 227, 0.26);
+    padding-bottom: 30px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 7px 15px 15px #592a0893;  
   }
   .estilo-c .info-container h3{
     margin: 0;
@@ -54,15 +130,29 @@
     width: 100%;
   }
   .estilo-c .add-cart{
-    margin-top: 20px;
-    text-decoration: none;
+    display: flex;
+    margin: auto;
+    padding: 10px 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
     color: white;
-    background-color: #a095c0;
-    padding: 15px;
-    border: 1px solid #a095c0;
-    border-radius: 25px;
+    background: #a095c0;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
   }
   .estilo-c .add-cart:hover{
-    color: white;
-    background:#83277b;
+    background: #83277b;
+    box-shadow: 1px 1px 30px -5px #20202085;
   }
+
+  .hr-product{
+    margin: auto;
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+    width: 50%;
+}
