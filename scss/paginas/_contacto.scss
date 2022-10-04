@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-body {
+    background: #f1f1f1;
+    height: 1000px;
+    margin-top: 100px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #C79C62;
+    text-align: center;
+}
+
+.titulo p {
+    margin-top: 30px;
+    color: #373737;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.form-contact {
+    background-color: #fff;
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+.logo-ctn {
+    width: 100%;
+    background: #a095c0;
+    overflow: hidden;
+}
+
+.logo-ctn span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logo-ctn img {
+    width: 100px;
+}
+
+.contact {
+    padding: .8rem;
+    overflow: hidden;
+    color: grey;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.contact label {
+    font-weight: 700;
+}
+
+.contact input:not([type='submit']),
+.contact textarea {
+    border: none;
+    border-bottom: 2px solid #7C89A1;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: grey;
+}
+
+.contact textarea {
+    min-height: 100px;
+}
+
+.boton {
+    display: flex;
+    margin: auto;
+    padding: 10px 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background: #a095c0;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+}
+
+.boton:hover {
+    background: #83277b;
+    box-shadow: 7px 10px 15px #592a0893;
+}
