@@ -685,6 +685,7 @@ hr {
 }
 
 .txt-lineas p {
+  width: 70%;
   margin-top: 30px;
   color: #373737;
   text-align: center;
@@ -881,6 +882,10 @@ h2 {
   width: 100%;
   background: #a095c0;
   overflow: hidden;
+}
+
+.logo-ctn .barra {
+  width: 100%;
 }
 
 .logo-ctn span {
