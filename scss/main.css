@@ -1286,4 +1286,117 @@ h2 {
 .boton:hover {
   background: #83277b;
   box-shadow: 7px 10px 15px rgba(89, 42, 8, 0.5764705882);
+}
+
+.carrousel-ctn {
+  height: 800px;
+  margin-top: 100px;
+}
+
+.content-all {
+  width: 270px;
+  perspective: 800px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.content-carrousel {
+  width: 100%;
+  position: absolute;
+  -webkit-animation: rotar 20s infinite;
+          animation: rotar 20s infinite;
+  transform-style: preserve-3d;
+  height: 200px;
+}
+
+.content-carrousel:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  cursor: pointer;
+}
+
+.content-carrousel figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-shadow: 0px 0px 20px 0px black;
+  transition: all 300ms ease-in-out;
+}
+
+.content-carrousel figure:hover {
+  box-shadow: 0px 0px 0px 0px black;
+  transition: all 300ms;
+}
+
+.content-carrousel img {
+  width: 100%;
+}
+
+.content-carrousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(2) {
+  transform: rotateY(51deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(3) {
+  transform: rotateY(102deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(4) {
+  transform: rotateY(154deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(5) {
+  transform: rotateY(205deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(6) {
+  transform: rotateY(256deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(7) {
+  transform: rotateY(306deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(8) {
+  transform: rotateY(360deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(9) {
+  transform: rotateY(0deg) translateZ(300px);
+}
+
+@-webkit-keyframes rotar {
+  from {
+    transform: rotateY(360deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes rotar {
+  from {
+    transform: rotateY(360deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+.content-carrousel img:hover {
+  transform: scale(1.5);
+  transition: all 300ms;
+}
+
+@media screen and (max-width: 760px) {
+  .content-all {
+    width: 60%;
+    perspective: 1200px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=main.css.map */
